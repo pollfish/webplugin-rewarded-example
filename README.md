@@ -1,6 +1,7 @@
 # webplugin-rewarded-example
 An example of how a publisher can integrate the webplugin integration to their website using a rewarded approach.
 
+![HowItLooks](https://user-images.githubusercontent.com/4293389/47730087-1ca4b300-dc6a-11e8-8fab-0ce940c60321.png)
 
 ## What this example does
 - It will not allow the webplugin integration to autostart
