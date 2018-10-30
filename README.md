@@ -22,7 +22,7 @@ First install it
 npm install live-server
 ```
 
-then just run it and voila, you should be able to [see the demo](http://localhost:8080).
+then just run it and voila, you should be able to visit http://localhost:8080 to see the demo
 ```shell
 live-server
 ```
