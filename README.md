@@ -28,3 +28,11 @@ live-server
 ```
 
 (live-server might open the development server in a different port if the port 8080 is already occupied).
+
+## Re-initialising the webplugin after a success or disqualify
+
+If you want your respondents to complete more than one survey, the best approach would be to use our [Offerwall Integration](https://www.pollfish.com/docs/offerwall) but if for any reason you don't want to enable it, you can use the example provided in the `multiple-rewards.html` to achieve a similar goal.
+
+#### Warning
+
+Since the `start` method is not meant to be called twice, in order to avoid side effects and race condition issues, it is recommended that you only run the `start` method after your user _closes_ the panel AND has already screenedOut or finished successfully once.
